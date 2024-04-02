@@ -36,17 +36,22 @@
 .readAbout {    
     text-align: center;
     font-style: italic;
-    font-size: 2rem;
+    font-size: 2,5rem;
     cursor: pointer;
     
 }
+.readAbout a:hover {
+    color: #9992c9;
+}
+.readAbout a {
+    color: #ffffff;
+}
 
-.butoes {
+.butoesLanding {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
-    
+    gap: 2rem;    
 }
 
 .btnSignIn {
@@ -63,6 +68,9 @@
     cursor: pointer; 
     border: solid white
 }
+.btnSignIn:hover {
+    background-color: rgba(40, 34, 71, 0.788)
+}
 
 .btnSignUp {
     display: flex;
@@ -77,4 +85,7 @@
     color: #171429;
     cursor: pointer; 
     background-color: #ffffff;
+}
+.btnSignUp:hover {
+    background-color: #cac5ea;
 }

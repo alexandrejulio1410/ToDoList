@@ -5,17 +5,18 @@ import { Link }  from 'react-router-dom';
 
 const About = () => {
   return (
-    <div className="conteiner">
+    <div className="conteinerAbout">
       <h1>About</h1>
-
       <p>
         A to-do list is a practical tool for organizing tasks. You can create a
         list of things you need to do and mark them as completed once finished.
         It’s a straight forward way to stay organized and manage your
         responsibilities efficiently.
-      </p>
-      <p>
-        Developed by 
+        <br/>
+        Developed by
+      </p>  
+        <div className="equipe">
+        <p>
         <br />UI Design/front-end - <a href="https://github.com/CarlaMSLopes">Carla Maria Santana Lopes –
         01440665 </a>
         <br />
@@ -31,8 +32,11 @@ const About = () => {
         <br />Arthur Vinicius Albuquerque dos
         Santos - 01570824
       </p>
+        </div>        
+      <div className="butao">
       <div className="btnReturn">        
         <Link to="/">Return</Link>        
+      </div>
       </div>
     </div>
     

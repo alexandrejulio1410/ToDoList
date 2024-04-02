@@ -22,7 +22,7 @@ const LandingPage = () => {
         </div>   
         </div>
         
-        <div className="butoes">
+        <div className="butoesLanding">
             <div className="btnSignIn">
                 Sign in
             </div>
