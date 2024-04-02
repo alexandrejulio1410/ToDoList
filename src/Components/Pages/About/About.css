@@ -1,0 +1,36 @@
+.conteiner {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0;
+    margin: 0 2rem 0 2rem;
+}
+h1{
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+}
+
+p{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Patrick Hand", cursive;
+    
+    
+}
+
+.btnReturn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 5rem;
+    border-radius: 3rem;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Patrick Hand", cursive;
+    color: #171429;
+    cursor: pointer; 
+    background-color: #ffffff;
+}

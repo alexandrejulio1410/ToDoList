@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Geologica:wght@100..900&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Geologica:wght@100..900&family=Patrick+Hand&family=Permanent+Marker&display=swap');
+
+.conteiner {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.titulo {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-size: 6rem;
+    color: white;
+    margin-top: 8rem;
+}
+
+.logomarca {
+    margin-top: 12rem;
+}
+
+.contentTexto {
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-size: 3rem;
+    color: white;
+}
+
+.readAbout {    
+    text-align: center;
+    font-style: italic;
+    font-size: 2rem;
+    cursor: pointer;
+    
+}
+
+.butoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.btnSignIn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 5rem;
+    border-radius: 3rem;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Patrick Hand", cursive;
+    color: white;
+    cursor: pointer; 
+    border: solid white
+}
+
+.btnSignUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 5rem;
+    border-radius: 3rem;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Patrick Hand", cursive;
+    color: #171429;
+    cursor: pointer; 
+    background-color: #ffffff;
+}
