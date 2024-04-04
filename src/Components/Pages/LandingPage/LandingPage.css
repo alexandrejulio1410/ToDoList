@@ -32,19 +32,41 @@
     font-size: 3rem;
     color: white;
 }
-
-.readAbout {    
+.marcador{
     text-align: center;
     font-style: italic;
     font-size: 2,5rem;
     cursor: pointer;
+}
+
+.readAbout { 
+    position: relative;
+    display: inline-block; 
+}
+
+.readAbout a:hover {
+    color: #ffffff;   
     
 }
-.readAbout a:hover {
-    color: #9992c9;
+.readAbout::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #3816fd 50%, transparent 50%);
+    z-index: 0;     
+    transition: all 0.3s ease; 
+    opacity: 0; 
+}
+.readAbout:hover::before {
+    opacity: 1;
 }
 .readAbout a {
     color: #ffffff;
+    position: relative;
+    z-index: 1;
 }
 
 .butoesLanding {

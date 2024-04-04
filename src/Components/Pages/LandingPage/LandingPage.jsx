@@ -4,7 +4,6 @@ import { Link }  from "react-router-dom";
 
 import logotipo_icon from '../../Assets/checklist_rtl.png'
 
-
 const LandingPage = () => {
   return (
     
@@ -16,15 +15,16 @@ const LandingPage = () => {
             </div>
         </div>
         <div className="contentTexto">
-        remember what you have to do    
-        <div className="readAbout">
-           <Link to="/About">read about us</Link>
-        </div>   
+        remember what you have to do 
+        <div className="marcador">
+            <div className="readAbout">
+                <Link to="/About">read about us</Link>
+            </div> 
+        </div>  
         </div>
-        
         <div className="butoesLanding">
-            <div className="btnSignIn">
-                Sign in
+            <div className="btnSignIn">                
+                <Link to="/Signup">Sign in</Link>
             </div>
             <div className="btnSignUp">
                 Create account
