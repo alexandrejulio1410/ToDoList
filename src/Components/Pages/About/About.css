@@ -1,32 +1,40 @@
-.conteinerAbout {
+.conteiner-About {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;   
-    padding: 0;
+    padding: 2rem 0 0 0;
     margin: 0 2rem 0 2rem;
     height: 100vh;
+    gap: 2rem;
 }
-h1{
+.titulo-about{
     color: white;
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
 }
 
-p{
+.paragrafo-About{
     color: white;
     font-size: 2rem;
     text-align: center;
     font-family: "Patrick Hand", cursive; 
+    padding: 0;
+    margin: 0;
 }
-.equipe {
+.equipe-About {
     color: white;
     font-size: 2rem;
     text-align: center;
-    font-family: "Patrick Hand", cursive;    
+    font-family: "Patrick Hand", cursive; 
+    padding: 0;
+    margin: 0;  
 }
 
-.butao {
+.butaoReturn-About {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,19 +55,19 @@ p{
 .btnReturn a:visited {    
     color: #171429;
 }
-.butao:hover {
+.butaoReturn-About:hover {
     background-color: #c2bcf1;
 }
 
-.equipe a {
+.paragrafoEquipe-About a {
     text-decoration: none;
     box-shadow: 0;
     transition: color 1s ;
 }
-.equipe a:visited {
+.paragrafoEquipe-About a:visited {
     color:#ffffff
 }
-.equipe a:hover {
+.paragrafoEquipe-About a:hover {
     color: #7c74a7;
     box-shadow: 0px 0px 3px #c2bcf1 ;    
 }

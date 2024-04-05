@@ -1,0 +1,14 @@
+.btn-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 5rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Patrick Hand", cursive;
+    cursor: pointer; 
+}
+
+

@@ -1,0 +1,78 @@
+
+.page-signUp {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container-signUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #cac1f0;
+    width: 45rem;
+    height: 40rem;
+    border-radius: 1rem;
+    gap: 2rem;
+ 
+}
+
+.btn-home {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #171429;
+}
+.subtitulo-signUp {
+    font-family: "Patrick Hand", cursive;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #171429;
+}
+
+.butoes-signUp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn-signIn {
+    color: #171429;
+    cursor: pointer; 
+    background-color: #cac1f0;
+    border: 3px solid #171429;
+}
+.btn-signIn a {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Patrick Hand", cursive;
+    color: #171429;
+    text-decoration: none;
+}
+.btn-signIn:hover {
+    background-color: #7465c0;
+}
+
+.btn-signUp {
+    color: #ffffff;
+    cursor: pointer; 
+    background-color: #171429;    
+}
+.btn-signUp a {
+    font-size: 2rem;
+    font-style: normal;
+    font-family: "Patrick Hand", cursive;
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn-signUp:hover {
+    background-color: #271e5c;
+}

@@ -1,0 +1,14 @@
+input {
+    border: 3px solid #171429;
+    border-radius: 1rem;
+    background-color: #e0dbf7;
+    width: 30rem;
+    height: 3rem;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem
+}
+
