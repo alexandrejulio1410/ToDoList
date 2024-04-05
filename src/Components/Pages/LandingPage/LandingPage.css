@@ -2,16 +2,34 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Geologica:wght@100..900&family=Patrick+Hand&family=Permanent+Marker&display=swap');
 
 .conteiner-LandingPage {    
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    justify-content: center;
 }
 
-.content-LandingPage {
+.header-LandingPage {
     display: flex;
     flex-direction: row;
-    gap: 5rem;
+    gap: 2rem;
+}
+.content-LandingPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    border: 4px solid white;
+    width: 750px;
+    height: 600px;
+}
+
+.content-LandingPage:hover {
+    border: 10px solid white;
 }
 
 .titulo-LandingPage{
@@ -19,11 +37,6 @@
     font-weight: 400;
     font-size: 6rem;
     color: white;
-    margin-top: 8rem;
-}
-
-.logomarca-LandingPage {
-    margin-top: 10rem;
 }
 
 .infoTexto-LandingPage {
@@ -51,7 +64,6 @@
     align-items: center;
     width: 20rem;
     height: 5rem;
-    border-radius: 1rem;
     font-size: 2rem;
     font-weight: 700;
     font-family: "Patrick Hand", cursive;
@@ -77,7 +89,6 @@
         align-items: center;
         width: 20rem;
         height: 5rem;
-        border-radius: 1rem;
         font-size: 2rem;
         font-weight: 700;
         font-family: "Patrick Hand", cursive;
@@ -97,4 +108,31 @@
     
         .btn-SignIn:hover {
             background-color: #271e5c;
+        }
+
+        @media (max-width:800px) {
+
+            .content-LandingPage {
+              border: none;
+            }
+            .content-LandingPage:hover {
+                border: none;
+            }
+            .logomarca-LandingPage {
+                display: none;
+            }
+            .titulo-LandingPage{
+                font-size: 70px;
+            }
+            .butoes-LandingPage {
+                flex-direction: column;   
+            }
+            .infoTexto-LandingPage {
+                font-size: 36px;
+            }
+            .marcador-infoTexto-LandingPage{
+                font-size: 24px;
+            }
+            
+            
         }

@@ -6,7 +6,7 @@ const LinkStyle = (props) => {
   return (
     
     <div className="divcontent-link">
-        <Link to="/About">{props.contentLink}</Link>
+        <Link to={props.caminho}>{props.contentLink}</Link>
     </div>
  
   )
