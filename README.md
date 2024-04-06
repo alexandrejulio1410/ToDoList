@@ -1,5 +1,8 @@
-![image](https://github.com/CarlaMSLopes/ToDoList/assets/77212926/9479f461-fb9c-41bd-9021-64c3b1ed8eca)
-![image](https://github.com/CarlaMSLopes/ToDoList/assets/77212926/ea2001ab-b807-4f77-bee3-6089c9f04dd8)
-![image](https://github.com/CarlaMSLopes/ToDoList/assets/77212926/e50418b2-ea74-4a4e-ad6c-7cb04cacb383)
+![image](https://github.com/CarlaMSLopes/ToDoList/assets/77212926/f3a01816-8ece-4aae-a9d2-ce0507c9f3d8)
+![image](https://github.com/CarlaMSLopes/ToDoList/assets/77212926/0d5e1b44-f64c-4932-a34c-805dda1031f2)
+
+![image](https://github.com/CarlaMSLopes/ToDoList/assets/77212926/4b0cb171-b9a5-4d29-8016-02135dcd782a)
+
+
 
 
