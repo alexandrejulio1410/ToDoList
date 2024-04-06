@@ -1,18 +1,20 @@
 import React from "react";
 import "../About/About.css";
-import BtnLink from "../../ButtonLink/BtnLink";
 import MembroEquipe from "../../Equipe/MembroEquipe";
+import BtnLinkX from "../../BtnLink Icon X/BtnLinkX";
 
 const About = () => {
   return (
     <section className="conteiner-About">
       <div className="contentBox-About">
+        <BtnLinkX rotaX="/" />
         <h1 className="titulo-about">About</h1>
         <p className="paragrafo-About">
-          A to-do list is a practical tool for organizing tasks. You can create
-          a list of things you need to do and mark them as completed once
-          finished. It’s a straight forward way to stay organized and manage
-          your responsibilities efficiently.
+          A to-do list is a practical tool for organizing tasks. <br />
+          You can create a list of things you need to do and mark them as
+          completed once finished. <br />
+          It’s a straight forward way to stay organized and manage your
+          responsibilities efficiently.
         </p>
         <h1 className="developes">Developer by</h1>
         <div className="equipe-About">
@@ -54,9 +56,6 @@ const About = () => {
               nomeMatricula="Arthur Santos - 01570824"
             />
           </p>
-        </div>
-        <div className="btnReturn">
-          <BtnLink route="/" textLink="Return"/>
         </div>
       </div>
     </section>

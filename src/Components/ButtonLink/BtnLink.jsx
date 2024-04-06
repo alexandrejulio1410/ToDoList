@@ -4,9 +4,9 @@ import "../ButtonLink/BtnLinks.css"
 
 const BtnLink = (props) => {
   return (
-    <div className={props.classe}>
-        <Link to={props.route}>{props.textLink}</Link>
-    </div>
+    
+      <Link className={props.classe} to={props.route}>{props.textLink}</Link>
+   
   )
 }
 
