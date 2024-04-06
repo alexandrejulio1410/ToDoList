@@ -2,6 +2,7 @@ import React from "react";
 import "../LandingPage/LandingPage.css";
 import { Link } from "react-router-dom";
 import LinkStyle from "../../LinkEstilizado/LinkStyle";
+import close_Iconx from '../../Assets/disabled_by_default.png'
 
 import logotipo_icon from "../../Assets/checklist_rtl.png";
 import BtnLink from "../../ButtonLink/BtnLink";
@@ -9,8 +10,8 @@ import BtnLink from "../../ButtonLink/BtnLink";
 const LandingPage = () => {
   return (
     <section className="conteiner-LandingPage">
-      <div className="content-LandingPage">
-        <div className="header-LandingPage">
+      <div className="content-LandingPage"> 
+      <div className="header-LandingPage">
           <h1 className="titulo-LandingPage">
             To-do
             <br />

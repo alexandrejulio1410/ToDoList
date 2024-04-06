@@ -81,7 +81,7 @@
     }
 
     .btn-SignUp:hover {
-        background-color: #7465c0;
+        background-color: #9584f8;
     }
     .btn-SignIn {
         display: flex;
@@ -107,7 +107,7 @@
         }
     
         .btn-SignIn:hover {
-            background-color: #271e5c;
+            background-color: #362f5d;
         }
 
         @media (max-width:800px) {

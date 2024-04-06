@@ -4,10 +4,16 @@ button {
     align-items: center;
     width: 15rem;
     height: 4rem;
-    border-radius: 1rem;
     font-size: 2rem;
     font-weight: 700;
     font-family: "Patrick Hand", cursive;
     
 }
-            
+        
+@media (max-width:800px) {
+    button {
+        width: 18rem;
+        height: 3rem;
+        font-size: 2rem;
+    }
+}
